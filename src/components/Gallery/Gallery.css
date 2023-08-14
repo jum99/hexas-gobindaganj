@@ -1,0 +1,28 @@
+.gallery-banner{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 70px; 
+}
+.gallery-banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 50vh;
+    color: white;
+}
+.gallery-heading{
+    margin: 100px 0;
+    text-align: center;
+}
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.gallery-images img{
+    width: 70%;
+    margin: 20px;
+    border-radius: 10px;
+}

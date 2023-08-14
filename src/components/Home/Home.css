@@ -1,0 +1,123 @@
+.home-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.home-about img{
+    width: 300px;
+    height: 300px;
+    
+}
+.home-about-img{
+    /* width: 40%; */
+}
+.home-about-content{
+    width: 50%;
+    margin: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: rgba(1, 41, 73, 1);
+}
+.home-about-content p{
+    color: rgba(85, 85, 85, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.playstore img{
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+}
+.offer-section{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: rgba(1, 41, 73, 1);
+}
+.offer-section p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.offer-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.offer-card{
+    background-color: rgba(1, 41, 73, 0.1);
+    width: 280px;
+    text-align: start;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px;
+}
+#offer-card2{
+    background-color: rgba(1, 41, 73, 1);
+    color: white;
+}
+.buttons{
+    display: flex;
+}
+.home-courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-course{
+    width: 300px;
+    height: 425px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(239, 242, 247, 1);
+}
+.home-course p{
+    margin: 15px 0;
+}
+.buttons button{
+    width: 180px;
+    height: 55px;
+    margin-right: 10px;
+    /* background-color: rgba(14, 46, 82, 1); */
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+progress[value] {
+    --color: rgba(1, 41, 73, 1); /* the progress color */
+    --background: rgba(197, 212, 235, 1); /* the background color */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 270px;
+    height: 10px;
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  
+  label {
+    /* font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0; */
+  }

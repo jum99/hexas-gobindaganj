@@ -1,0 +1,69 @@
+.blog-details-banner{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 70px;
+}
+.blog-details-banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 50vh;
+}
+.blog-details-heading{
+    margin: 100px 0;
+    text-align: center;
+    color: white;
+}
+.blog-details-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.comment-section{
+    background-color: rgba(230, 234, 237, 1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.comment-form input{
+    width: 285px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 25px;
+}
+.comment-form textarea{
+    width: 87%;
+    border: none;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.comment-btn{
+    background-color: rgba(33, 137, 234, 1);
+    border-radius: 5px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: white;
+}
+.tag-btn{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.reply-btn{
+    padding: 8px 15px ;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

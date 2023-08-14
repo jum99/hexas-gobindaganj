@@ -1,0 +1,26 @@
+.banner-bg{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 100vh;
+    color: white;
+}
+.banner-content{
+     margin: 130px 100px;
+     width: 25%;
+     font-family: 'Rajdhani', sans-serif;
+     font-weight: 700;
+}
+.banner-content button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: rgba(1, 40, 72, 1);
+    font-weight: 700;
+}

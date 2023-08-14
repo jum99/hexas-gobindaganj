@@ -1,0 +1,32 @@
+.blog-banner{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    
+}
+.blog-banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 50vh;
+    color: white;
+}
+.blog-heading{
+    margin: 100px 135px;
+}
+.blog-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 30px;
+}
+.blog-card{
+    width: 370px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(230, 234, 237, 1);
+}
+.blog-card h4{
+    margin: 30px 0;
+}

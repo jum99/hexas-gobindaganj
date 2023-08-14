@@ -1,0 +1,48 @@
+.team-banner{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-bottom: 50px;
+}
+.team-banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 80vh;
+    color: white;
+}
+.team-heading{
+    margin: 160px 135px;
+    width: 30%;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.team-member{
+    background-color: rgba(238, 238, 238, 1);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 50px 30px;
+}
+.member-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.social-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}

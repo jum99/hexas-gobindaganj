@@ -1,0 +1,56 @@
+.certificate-banner{
+    background-image: url("/src/images/img3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 70px; 
+}
+.certificate-banner-style{
+    background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
+    height: 50vh;
+    color: white;
+}
+.certificate-heading{
+    margin: 100px 0;
+    text-align: center;
+}
+.certificate-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.certificate-content{
+    width: 50%;
+    margin: 0 20px;
+}
+.certificate-content input{
+    background-color: rgba(238, 238, 238, 1);
+    display: flex;
+    width: 550px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+}
+.certificate-content input:hover{
+    border: none;
+}
+.verify-btn{
+    width: 180px;
+    height: 55px;
+    background-color: rgba(14, 46, 82, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.certificate-img{
+    width: 50%;
+    margin: 20px;
+}
+.certificate-img img{
+    width: 100%;
+    border-radius: 10px;
+}
