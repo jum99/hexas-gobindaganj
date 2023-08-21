@@ -77,9 +77,9 @@ const Home = () => {
                         </div>
                         <h4 style={{marginLeft: '10px'}}>Top IELTS Center</h4>
                     </div>
-                    <div className='buttons'>
-                        <button style={{color: 'rgba(1, 41, 73, 1)'}}>Read More</button>
-                        <button style={{backgroundColor: 'rgba(1, 41, 73, 1)', color:'white'}}>Go About</button>
+                    <div>
+                        <button style={{color: 'rgba(1, 41, 73, 1)'}} className='regular-btn'>Read More</button>
+                        <button style={{backgroundColor: 'rgba(1, 41, 73, 1)', color:'white'}} className='regular-btn'>Go About</button>
                     </div>
                     
                 </div>

@@ -1,22 +1,22 @@
 import React from 'react';
 import './AboutUs.css';
-import Navbar from '../Shared/Navbar/Navbar';
 import AboutImg from '../../images/img1.jpeg';
 import student from '../../images/student.jpg';
 import { Link } from 'react-router-dom';
 import Footer from '../Shared/Footer/Footer';
 import { BiSolidBarChartAlt2 } from 'react-icons/bi';
 import { TiChartPie } from 'react-icons/ti';
+import Header from '../Shared/Navbar/Header';
 
 const AboutUs = () => {
     return (
         <div>
             <div className="about-banner">
                 <div className="about-banner-style">
-                    <Navbar />
+                    <Header />
                     <div className='about-banner-content'>
                     <h1>About Us Hexa's Gobindaganj</h1>
-                    <p style={{margin: '20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis suscipit earum nisi, nesciunt, ad at id dolor rerum rem quae adipisci ex sint amet eius nam esse, modi quia!
+                    <p style={{margin: '20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum <br /> facilis suscipit earum nisi, nesciunt, ad at id dolor rerum rem quae adipisci ex sint amet eius nam esse, modi quia!
                     </p>
                     <div>
                     <button style={{backgroundColor: 'rgba(33, 137, 234, 1)', color: 'white'}} className='regular-btn'>Book Now</button>
@@ -45,7 +45,7 @@ const AboutUs = () => {
                         <h4 style={{marginLeft: '10px'}}>Website Development</h4>
                     </div>
                     
-                    <div style={{margin: '18px 0'}}>
+                    <div>
                         <button style={{color: 'rgba(1, 41, 73, 1)'}} className='regular-btn'>Read More</button>
                         <button style={{backgroundColor: 'rgba(1, 41, 73, 1)', color: 'white'}} className='regular-btn'>Go About</button>
                     </div>
@@ -54,13 +54,13 @@ const AboutUs = () => {
             </section>
             <section className='about-service'>
                 <h1 style={{ textAlign: 'center'}}>Services We Provide</h1>
-                <p style={{textAlign: 'center', marginBottom: '50px', marginTop: '20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem!</p>
+                <p style={{textAlign: 'center', margin: '30px 30px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem!</p>
                 <div className='about-section'>
                 <div className='about'>
                 <div className='about-img'>
                     <img src={AboutImg} alt="about" />
                 </div>
-                <div className='about-content' style={{marginLeft: '20px'}}>
+                <div className='about-content'>
                     <h2>Best Education</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate in molestias exercitationem a nemo nihil iure deleniti voluptates repellat debitis quisquam perferendis soluta voluptate perspiciatis nostrum ratione.</p>
                     <button className='regular-btn' style={{backgroundColor: 'rgba(1, 41, 73, 1)', color: 'white'}}>Read More</button>
@@ -80,7 +80,7 @@ const AboutUs = () => {
                 <div className='about-img'>
                     <img src={AboutImg} alt="about" />
                 </div>
-                <div className='about-content' style={{marginLeft: '20px'}}>
+                <div className='about-content'>
                     <h2>Top IELTS Center</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate in molestias exercitationem a nemo nihil iure deleniti voluptates repellat debitis quisquam perferendis soluta voluptate perspiciatis nostrum ratione.</p>
                     <button className='regular-btn' style={{backgroundColor: 'rgba(1, 41, 73, 1)', color: 'white'}}>Read More</button>

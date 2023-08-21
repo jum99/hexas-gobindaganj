@@ -3,15 +3,12 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
-    margin-bottom: 70px;
 }
 .blog-details-banner-style{
     background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
-    height: 50vh;
 }
 .blog-details-heading{
-    margin: 100px 0;
+    padding: 150px 50px;
     text-align: center;
     color: white;
 }
@@ -37,11 +34,12 @@
     border-radius: 5px;
     border: none;
     margin-right: 25px;
+    margin-bottom: 20px;
 }
 .comment-form textarea{
     width: 87%;
     border: none;
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
 }
@@ -66,4 +64,13 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+@media (max-width:768px){
+   .tag-btn{
+    font-size: 14px;
+   }
+   .blog-details-section{
+    width: 90%;
+} 
 }

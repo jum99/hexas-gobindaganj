@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import './Gallery.css';
 import img1 from '../../images/img1.jpeg';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Navbar/Header';
 
 const Gallery = () => {
     return (
         <div>
             <div className="gallery-banner">
                 <div className="gallery-banner-style">
-                    <Navbar />
+                    <Header />
                     <h1 className='gallery-heading'>Our Gallery</h1>
                 </div>
             </div>

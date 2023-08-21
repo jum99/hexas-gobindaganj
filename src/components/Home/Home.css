@@ -9,9 +9,6 @@
     height: 300px;
     
 }
-.home-about-img{
-    /* width: 40%; */
-}
 .home-about-content{
     width: 50%;
     margin: 50px;
@@ -27,8 +24,8 @@
     margin: 20px 0;
 }
 .playstore img{
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     margin-right: 20px;
 }
 .offer-section{
@@ -67,7 +64,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .home-course{
     width: 300px;
@@ -80,12 +76,10 @@
 .home-course p{
     margin: 15px 0;
 }
-.buttons button{
+.regular-btn{
     width: 180px;
     height: 55px;
     margin-right: 10px;
-    /* background-color: rgba(14, 46, 82, 1); */
-    /* color: white; */
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -115,9 +109,18 @@ progress[value] {
     background: var(--color);
   }
   
-  label {
-    /* font-size: 20px;
-    font-weight: bold;
-    display: block;
-    margin: 20px 0; */
+  @media (max-width:768px){
+    .home-about{
+        flex-direction: column;
+    }
+    .home-about-content{
+        width: 80%;
+    }
+    .offer-cards{
+        flex-direction: column;
+    }
+    .home-courses{
+        flex-direction: column;
+    }
+
   }

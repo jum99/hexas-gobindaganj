@@ -10,8 +10,8 @@ import logo from '../../../images/logo.png';
 const Footer = () => {
     return (
         <div className='footer-section'>
-            <div className='footer-top'>
-            <div>
+            <div className='footer-top row row-cols-md-4 row-cols-lg-4 row-cols-sm-2'>
+            <div className='col-6'>
                 <img src={logo} alt="" />
                 <p>Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Nam, aspernatur!</p>
                 <div className='footer-social-icon'>
@@ -21,7 +21,7 @@ const Footer = () => {
                         <img src={fb} alt="" />
                 </div>
             </div>
-            <div className='footer-links'>
+            <div className='footer-links col-6'>
                 <h3>Get Our Link</h3>
                 <Link>Homes</Link>
                 <Link>Apartments</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Link>B&Bs</Link>
                 <Link>Guest houses</Link>
             </div>
-            <div className='footer-links'>
+            <div className='footer-links col-6'>
             <h3>Get Our Link</h3>
                 <Link>Homes</Link>
                 <Link>Apartments</Link>
@@ -41,7 +41,7 @@ const Footer = () => {
                 <Link>B&Bs</Link>
                 <Link>Guest houses</Link>
             </div>
-            <div className='footer-links'>
+            <div className='footer-links col-6'>
             <h3>Get Our Link</h3>
                 <Link>Homes</Link>
                 <Link>Apartments</Link>

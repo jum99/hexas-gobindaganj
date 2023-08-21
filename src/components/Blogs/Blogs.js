@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import './Blogs.css';
 import img1 from '../../images/img1.jpeg';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Navbar/Header';
 
 const Blogs = () => {
     return (
         <div>
             <div className="blog-banner">
                 <div className="blog-banner-style">
-                    <Navbar />
+                    <Header />
                     <h1 className='blog-heading'>Our Latest Blog</h1>
                     </div>
             </div>

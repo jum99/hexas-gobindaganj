@@ -3,17 +3,14 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
-    margin-bottom: 50px;
 }
 .team-banner-style{
     background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
-    height: 80vh;
     color: white;
 }
+
 .team-heading{
-    margin: 160px 135px;
-    width: 30%;
+    padding: 150px 50px;
 }
 .team-members{
     display: grid;
@@ -45,4 +42,11 @@
     height: 40px;
     border-radius: 5px;
     margin: 5px;
+}
+
+@media (max-width:768px){
+    .team-members{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
 }

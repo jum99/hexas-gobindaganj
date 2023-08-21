@@ -3,12 +3,12 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 80vh;
     margin-bottom: 70px;
 }
 .course-details-banner-style{
     background: linear-gradient(89.92deg, rgba(0, 25, 64, 0.9) 51.56%, rgba(0, 0, 0, 0) 99.93%);
-    height: 50vh;
+    height: 80vh;
 }
 .course-details-section{
     background-color: rgba(239, 245, 249, 1);
@@ -33,18 +33,16 @@
     padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    /* height: 60px; */
     border: 1px solid rgba(42, 153, 255, 1);
     border-radius: 5px;
     color: rgba(42, 153, 255, 1);
 }
 .teacher-section{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 .teacher-div{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 50px;
 }
@@ -61,4 +59,28 @@
     border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+@media (max-width:768px){
+    .course-details-section{
+        width: 90%;
+        padding: 10px;
+        margin-top: -90px;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 80%;
+    }
+    .half-width h2{
+        margin-top: 50px;
+    }
+    .teacher-section{
+        width: 90%;
+    }
+    .teacher-div h3{
+        font-size: 16px;
+    }
+    .teacher-div h5{
+        font-size: 14px;
+    }
 }

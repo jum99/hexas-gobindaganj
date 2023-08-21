@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import './Certificate.css';
 import CertificateImg from '../../images/Certificate.jpg';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Navbar/Header';
 
 const Certificate = () => {
 
@@ -15,7 +15,7 @@ const Certificate = () => {
         <div>
             <div className="certificate-banner">
                 <div className="certificate-banner-style">
-                    <Navbar />
+                    <Header />
                     <h1 className='certificate-heading'>Verify Your Certificate</h1>
                 </div>
             </div>

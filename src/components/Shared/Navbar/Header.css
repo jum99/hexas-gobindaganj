@@ -11,11 +11,16 @@
     font-weight: 500;
 }
 .nav-btn{
-    margin-left: 20px;
     border: none;
     padding: 10px 15px;
     background-color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
 
+
+@media (max-width:768px){
+    .nav-btn{
+       width: 25%;
+    }
 }

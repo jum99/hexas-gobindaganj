@@ -1,19 +1,19 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import './Team.css';
 import student from '../../images/student.jpg';
 import Footer from '../Shared/Footer/Footer';
 import wp from '../../images/wp.png';
 import call from '../../images/call.png';
 import fb from '../../images/fb.png';
+import Header from '../Shared/Navbar/Header';
 
 const Team = () => {
     return (
         <div>
             <div className="team-banner">
                 <div className="team-banner-style">
-                    <Navbar />
-                    <h1 className='team-heading'>Meet The Team Professionals</h1>
+                    <Header />
+                    <h1 className='team-heading'>Meet The Team <br /> Professionals</h1>
                 </div>
             </div>
             <section className='team-members' style={{margin: '80px'}}>

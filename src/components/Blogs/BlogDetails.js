@@ -1,6 +1,5 @@
 import React from 'react';
 import './BlogDetails.css';
-import Navbar from '../Shared/Navbar/Navbar';
 import img1 from '../../images/img3.jpg';
 import teacher from '../../images/student.jpg';
 import Footer from '../Shared/Footer/Footer';
@@ -9,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import { RiDoubleQuotesL } from 'react-icons/ri';
 import { BiSolidLike } from 'react-icons/bi';
+import Header from '../Shared/Navbar/Header';
 
 
 const BlogDetails = () => {
@@ -16,7 +16,7 @@ const BlogDetails = () => {
         <div>
             <div className="blog-details-banner">
                 <div className="blog-details-banner-style">
-                    <Navbar />
+                    <Header />
                     <h1 className='blog-details-heading'>Blog Details</h1>
                 </div>
             </div>

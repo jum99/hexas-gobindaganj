@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import './Courses.css';
 import img1 from '../../images/img1.jpeg';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Navbar/Header';
 
 const Courses = () => {
     return (
         <div>
             <div className="about-banner">
                 <div className="about-banner-style">
-                    <Navbar />
+                    <Header />
                     <div className='about-banner-content'>
                     <h1>Our Popular Courses</h1>
                     <p style={{margin: '20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis suscipit earum nisi, nesciunt, ad at id dolor rerum rem quae adipisci ex sint amet eius nam esse, modi quia!
@@ -21,7 +21,7 @@ const Courses = () => {
                    </div> 
                 </div>
             </div>
-            <section style={{margin: 50}}>
+            <section style={{margin: '50px 10px'}}>
                 <h1 style={{textAlign: 'center'}}>Our Popular Courses</h1>
                 <div className='top-buttons'>
                     <button className='top-button'>All Course</button>

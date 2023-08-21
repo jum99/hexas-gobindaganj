@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.row{
+  --bs-gutter-x: 0;
+}
 .App {
   text-align: center;
 }

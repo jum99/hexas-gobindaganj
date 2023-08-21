@@ -1,8 +1,8 @@
 import React from 'react';
 import './CourseDetails.css';
-import Navbar from '../Shared/Navbar/Navbar';
 import img1 from '../../images/img1.jpeg';
 import teacher from '../../images/student.jpg';
+import Header from '../Shared/Navbar/Header';
 
 
 const CourseDetails = () => {
@@ -10,7 +10,7 @@ const CourseDetails = () => {
         <div>
             <div className="course-details-banner">
                 <div className="course-details-banner-style">
-                    <Navbar />
+                    <Header />
                 </div>
             </div>
             <section className='course-details-section'>
@@ -35,7 +35,7 @@ const CourseDetails = () => {
             <section className='teacher-section'>
                 <h2 style={{margin: '50px 0'}}>Those who will take classes</h2>
                 <div className='teacher-div'>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginRight: '15%'}}>
+                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginRight: '28px'}}>
                     <img style={{marginRight: '10px'}} src={teacher} alt="" />
                     <div>
                     <h3>Anisuzzaman Khan</h3>
